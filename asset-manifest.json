@@ -1,28 +1,35 @@
 {
   "files": {
     "main.css": "/nolan_react_portfolio/static/css/main.c03576e1.chunk.css",
-    "main.js": "/nolan_react_portfolio/static/js/main.eabc4d6e.chunk.js",
-    "main.js.map": "/nolan_react_portfolio/static/js/main.eabc4d6e.chunk.js.map",
+    "main.js": "/nolan_react_portfolio/static/js/main.bd3d7439.chunk.js",
+    "main.js.map": "/nolan_react_portfolio/static/js/main.bd3d7439.chunk.js.map",
     "runtime-main.js": "/nolan_react_portfolio/static/js/runtime-main.d3dfae87.js",
     "runtime-main.js.map": "/nolan_react_portfolio/static/js/runtime-main.d3dfae87.js.map",
     "static/css/2.818011ed.chunk.css": "/nolan_react_portfolio/static/css/2.818011ed.chunk.css",
-    "static/js/2.261c4cb1.chunk.js": "/nolan_react_portfolio/static/js/2.261c4cb1.chunk.js",
-    "static/js/2.261c4cb1.chunk.js.map": "/nolan_react_portfolio/static/js/2.261c4cb1.chunk.js.map",
+    "static/js/2.e8d13fd9.chunk.js": "/nolan_react_portfolio/static/js/2.e8d13fd9.chunk.js",
+    "static/js/2.e8d13fd9.chunk.js.map": "/nolan_react_portfolio/static/js/2.e8d13fd9.chunk.js.map",
     "static/js/3.42b5fc0d.chunk.js": "/nolan_react_portfolio/static/js/3.42b5fc0d.chunk.js",
     "static/js/3.42b5fc0d.chunk.js.map": "/nolan_react_portfolio/static/js/3.42b5fc0d.chunk.js.map",
     "index.html": "/nolan_react_portfolio/index.html",
     "static/css/2.818011ed.chunk.css.map": "/nolan_react_portfolio/static/css/2.818011ed.chunk.css.map",
     "static/css/main.c03576e1.chunk.css.map": "/nolan_react_portfolio/static/css/main.c03576e1.chunk.css.map",
-    "static/js/2.261c4cb1.chunk.js.LICENSE.txt": "/nolan_react_portfolio/static/js/2.261c4cb1.chunk.js.LICENSE.txt",
+    "static/js/2.e8d13fd9.chunk.js.LICENSE.txt": "/nolan_react_portfolio/static/js/2.e8d13fd9.chunk.js.LICENSE.txt",
+    "static/media/Blog.23276e22.png": "/nolan_react_portfolio/static/media/Blog.23276e22.png",
+    "static/media/DailyPlanner.fe80bce6.png": "/nolan_react_portfolio/static/media/DailyPlanner.fe80bce6.png",
+    "static/media/DailyVibes.871d1ae4.png": "/nolan_react_portfolio/static/media/DailyVibes.871d1ae4.png",
     "static/media/Resume_ANolan_May2021.6d3015c1.pdf": "/nolan_react_portfolio/static/media/Resume_ANolan_May2021.6d3015c1.pdf",
+    "static/media/TeamProfileGenerator.799eb197.png": "/nolan_react_portfolio/static/media/TeamProfileGenerator.799eb197.png",
     "static/media/WebDevResume_ANJuly2021.364c3dca.pdf": "/nolan_react_portfolio/static/media/WebDevResume_ANJuly2021.364c3dca.pdf",
-    "static/media/logo.6ce24c58.svg": "/nolan_react_portfolio/static/media/logo.6ce24c58.svg"
+    "static/media/bountiful.71abd7cd.png": "/nolan_react_portfolio/static/media/bountiful.71abd7cd.png",
+    "static/media/logo.6ce24c58.svg": "/nolan_react_portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/photo_me.3941b5b1.jpg": "/nolan_react_portfolio/static/media/photo_me.3941b5b1.jpg",
+    "static/media/weatherdashboard.f3019d02.png": "/nolan_react_portfolio/static/media/weatherdashboard.f3019d02.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d3dfae87.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.261c4cb1.chunk.js",
+    "static/js/2.e8d13fd9.chunk.js",
     "static/css/main.c03576e1.chunk.css",
-    "static/js/main.eabc4d6e.chunk.js"
+    "static/js/main.bd3d7439.chunk.js"
   ]
 }
