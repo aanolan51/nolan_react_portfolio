@@ -1,13 +1,172 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*Class to change specific parts of text*/
+.font_change {
+  color: rgb(233, 35, 134);
+  font-size: 6vw; /*variable width font size*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* The characteristics that will be applied to the h1 tag inside the header*/
+#name {
+  display: inline-block;
+  font-size: 4vw; /*makes font size larger relative to the root font size*/
+}
+
+/*Style the Nav Links*/
+.linkstyle, #navbarDropdownMenuLink, .custom-btn{
+  color: black !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+  border-radius: 10px !important;
+}
+
+.custom-btn{
+  color: black !important;
+  background-color: transparent !important;
+  border: none !important;
+  font-weight: bold !important;
+  border-radius: 9px !important;
+}
+
+/*Create a hover affect for the nav links */
+.linkstyle:hover, #navbarDropdownMenuLink:hover, .custom-btn:hover{
+  color: rgb(223, 219, 219) !important;
+  background-color: rgb(233, 35, 134) !important;
+  border-radius: 10px !important;
+}
+
+#profile_pic{
+  float:left;
+  width: 100%;
+  filter:grayscale();
+  box-shadow: 10px 5px 5px rgb(102, 102, 102);
+}
+
+/* Reference for project cards: https://codepen.io/ArnaudBalland/pen/vGZKLr */
+.content {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 5px 3px 3px rgb(148, 147, 147);
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.project-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 90%;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .project-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.project-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+
+.project-details p{
+  color: #fff;
+  font-size: 2vw;
+}
+.fadeIn-left{
+  left: 20%;
+}
+
+.link{
+  text-decoration: none;
+}
+.git-link{
+  text-decoration: none;
+  font-size: 2vw;
+  color: #fff;
+}
+.toplink{
+  text-decoration: none;
+  font-size: 1.5vw;
+  color:grey;
+}
+.git-link:hover, .toplink:hover{
+  color: rgb(233, 35, 134);
+}
+
+/* List characteristics for the Contact section*/ 
+.list_contact{
+list-style-type: none;
+display: flex;
+flex: 1;
+}
+
+/* Specific list item attributes*/
+.inline_contact{
+display: flex;
+flex: 1;
+font-size: 2vw;
+margin: 1%;
+justify-content: center; 
+align-self: center; /*aligns flex content in the center */   
+}
+
+.contact_item_format{
+color: black;
+text-decoration: none;
+padding: 5%;
+font-size: 3vw;
+}
+
+.contact_item_format:hover{
+color: white;
+background-color: rgb(233, 35, 134);
+padding: 3%;
+border-radius: 20px;
+}
+
+.contactform{
+  margin: 10%;
+}
+.contactItem{
+  padding: 1%;
+}
+.contactbtn{
+  color: black;
+text-decoration: none;
+padding: .5%;
+font-size: 1.2vw;
+}
+.contactbtn:hover{
+  color:white;
+  background-color: rgb(233, 35, 134);  
 }
